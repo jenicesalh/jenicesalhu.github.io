@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(#8dcea3 0%, #dd4c4f 40%, #06cdf0);
+}
+.jenices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.jenice {
+    width: 200px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.jenices h3 {
+    color: rgb(71, 37, 54);
+    transform: translatey(30px);
+}
+.jenices h5 {
+    color: rgb(71, 37, 54);
+    transform: translatey(30px);
+}
+.jenices h5 span {
+    color: #392972;
+}
+.jenices h6 {
+    font-size: 20px;
+    transform: translateY(30px);
+    color: #40911b;
+}
+.home a {
+    color: rgb(47, 38, 77);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: 2rem solid var(--main-color);
+    border-radius: 20%;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin: 2rem 0.5rem 2rem 0;
+    transition: .5s ease;
+}
+.home a :hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+.about {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(219, 207, 207, 0.822) 40%, rgba(255, 255, 255, 0));
+    padding-bottom: 400px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.row {
+    padding: 0px 10px;
+}
+.col-sm .BIODATA {
+    color: #c77920;
+}
+.table {
+    transform: translatex(-30px);
+}
+.Resume {
+    padding-top: 50px;
+}
+.psman {
+    width: 100px;
+    padding-bottom: 20px;
+}
+.punpatti {
+    width: 100px;
+    padding-bottom: 20px;
+}
+.nyanyi {
+    width: 100px;
+    padding-bottom: 20px;
+}
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card {
+    flex: 0 0 20rem;
+    background: linear-gradient(#ffffff 0%, #8dc4e4 40%, #f4f5f3);
+    padding: 3rem 2rem 4rem;
+    border-radius: 3rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.card h5 {
+    color: #832025;
+}
+.col-sm-4 :hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+.footer {
+    background-color: white;
+}
+.footer span {
+    color: #4a835d;
+}
+.footer p {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(238, 236, 236, 0.822) 40%, rgba(255, 255, 255, 0));
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.contact {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(238, 236, 236, 0.822) 40%, rgba(255, 255, 255, 0));
+}
+.contact mb-3 {
+    flex: 0 0 20rem;
+    background: linear-gradient(#ffffff 0%, #8dc4e4 40%, #f4f5f3);
+    padding: 3rem 2rem 4rem;
+    border-radius: 3rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.watermark span {
+    color: #3faa0d;
+}
